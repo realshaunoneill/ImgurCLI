@@ -1,4 +1,4 @@
-<h1 align="center"><b>ImgurCLI</b></h1>
+<h1 align="center"><b>ImgurCLI 🖼️</b></h1>
 <h5 align="center">A quick and easy to use CLI tool to upload images to Imgur</h5>
 <div align="center">
 
