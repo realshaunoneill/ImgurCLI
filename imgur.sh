@@ -3,7 +3,7 @@
 # Created by Shaun O'Neill (XeliteXirish)
 # https://www.shaunoneill.com - https://github.com/XeliteXirish
 
-apikey="ea6c0ef2987808e"
+apikey="totallypublickey"
 
 NORMAL="\033[0m"
 GREEN="\033[0;32m"
