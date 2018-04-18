@@ -18,7 +18,7 @@
   - Give it execute permissions with `chmod +x imgur.sh'
 <br/>
 
-### Example
+## Example
 <div align="center">
   <img src="https://github.com/XeliteXirish/ImgurCLI/blob/master/example.png?raw=true"/>
 </div>
