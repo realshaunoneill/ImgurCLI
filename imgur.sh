@@ -13,13 +13,13 @@ RED="\033[0;31m"
 function usage {
     echo "Usage: $(basename $0) <filename> [<filename> [...]]" >&2
     echo "Upload images to imgur and output their new URLs to the console." >&2
-    echo "The delete page url is outputed to the console aswell." >&2
+    echo "The delete page url is also outputed to the console!" >&2
     echo "If xsel or xclip is available, the URLs are put in the console" >&2
 }
 
 # Check the API key has been entered
 if [ "$apikey" = "Your API key" ]; then
-    echo "You first need to edit this script and put your API key in the variable near the top." >&2
+    echo "You first need to edit this script and paste your API key in the variable at the top of this file!" >&2
     exit 15
 fi
 
@@ -35,7 +35,7 @@ fi
 
 # Check curl is available
 type curl >/dev/null 2>/dev/null || {
-    echo "Couln't find curl, which is required." >&2
+    echo "Couln't find curl, which is required. Please install it with sudo apt-get install curl" >&2
     exit 17
 }
 
